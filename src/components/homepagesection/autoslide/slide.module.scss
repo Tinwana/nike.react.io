@@ -1,0 +1,22 @@
+.slideText{
+    text-align: center;
+    line-height: 1.5    ;
+    .slideTextContent{
+        background-color: #f5f5f5;
+        display: none;
+        padding: .5rem;
+        h1{
+            font-size: 1rem;
+        }
+        p{
+            font-size: .7rem;
+        }
+        p>a{
+            color: #111111;
+        }
+        &.showUp{
+            display: block;
+        }
+    }
+    
+}

@@ -1,0 +1,71 @@
+@media (max-width: 950px) and (min-width: 780px){
+    .brand__navbar-help{
+        display: none !important;
+    }
+    .navbar__feature{
+        display: none;
+    }
+    .navbar__search{
+        .feature__icon:nth-child(2){
+            display: none;
+        }
+        .search__group{
+            .search__input{
+                width: 70vw;
+            }
+        }
+        .feature__icon:last-child{
+            display: block !important;
+            cursor: pointer;
+        }
+    }
+}
+
+
+@media (max-width: 779px) {
+    .navbar__modal{
+        width: 100% !important;
+    }
+    .brand__navbar-help{
+        display: none !important;
+    }
+    .navbar__feature{
+        display: none;
+    }
+    .navbar__search{
+        .feature__icon:nth-child(2){
+            display: none;
+        }
+        .search__group{
+            .search__input{
+                display: none;
+            }
+        }
+        .feature__icon:last-child{
+            display: block !important;
+            cursor: pointer;
+        }
+    }
+    .goods__list{
+        flex-direction: column;
+    }
+    .footer__content{
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 8rem;
+        .footer__info--text{
+            ul:not(:first-child){
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .pegasus__images{
+        display: none !important;
+    }
+    .carousel{
+        display: block !important;
+    }
+}

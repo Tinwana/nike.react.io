@@ -1,0 +1,58 @@
+.saleShoe{
+    .pegasusImages{
+    overflow-y: hidden !important;
+
+        .pegasusImage{
+            position: relative;
+            width: 33.33%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            flex-shrink: 0;
+            > img{
+                width: 100%;
+            }
+        }   
+        .btnDes{
+            position: absolute;
+            bottom: 6%;
+            left: 6%;
+        }
+        .btnDes:hover{
+            background-color: #e5e5e5;
+        }
+        p:nth-child(2){
+            color: #827575;
+            font-size: 1rem;
+        }
+        .access:first-child{
+            color: #ad8375;
+        }
+
+    }
+} 
+.descriptionPrice{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    line-height: 1.5;
+    flex:1 0 0;
+}
+
+.pegasusImages::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  /* Track */
+  .pegasusImages::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .pegasusImages::-webkit-scrollbar-thumb {
+    background: rgb(134, 134, 134); 
+    border-radius: 10px;
+  }
